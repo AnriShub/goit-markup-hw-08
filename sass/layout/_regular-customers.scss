@@ -1,0 +1,42 @@
+// .reg-wrapper {
+//     margin: 0;
+//     padding: 0;
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+
+// }
+// .td-effects {
+//     transition-duration: 5250ms;
+// }
+
+// .regular-customers {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 170px;
+//     height: 92px;
+//     border: 1px solid var(--social-icon-color);
+//     border-radius: 4px;
+
+//     &:hover {
+//         fill: var(--maincolor); 
+//         border: 1px solid var(--maincolor);
+//     }
+// }
+
+// .regular-customers-icon {
+//     fill: var(--social-icon-color);
+//     max-height: 47px;
+//     max-width: 94px;
+
+//     .regular-customers:hover & {
+//         fill: var(--maincolor); 
+//     }
+// }
+
+
+// .td-effects:hover .regular-customers, .td-effects:hover .regular-customers-icon {
+//     transition-duration: 250ms;
+
+// }

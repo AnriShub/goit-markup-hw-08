@@ -1,0 +1,15 @@
+a {
+    color: var(--textcolor);
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: var(--maincolor);
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

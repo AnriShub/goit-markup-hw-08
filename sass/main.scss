@@ -1,0 +1,24 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+@import "./base/sending";
+
+@import "./base/common";
+@import "./base/container";
+
+@import "./components/modal-form";
+@import "./components/modal-close-btn";
+@import "./components/web-studio-logo";
+@import "./components/.contacts";
+
+
+
+@import "./layout/page-header";
+@import "./layout/details-wrapper";
+@import "./layout/cover-section";
+
+@import "./layout/portfolio-cards";
+@import "./layout/tiams";
+@import "./layout/our-pisitions";
+@import "./components/backdrop";
+@import "./layout/regular-customers";
+@import "./layout/footer";

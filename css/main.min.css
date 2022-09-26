@@ -1,0 +1,95 @@
+:root {
+    --textcolor: #212121;
+    --secondarycolor: #757575;
+    --button-color: #F5F4FA;
+    --maincolor: #2196F3;
+    --bgcolor: #ffffff;
+    --transp-white: #ffffffae;
+    --box-border-color: #EEEEEE;
+    --border-color: #ECECEC;
+    --bg-color-fon: #2F303A;
+    --box-shadow-card: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    --social-round-color: rgba(255, 255, 255, 0.1);
+    --social-icon-color: #AFB1B8;
+    --footer-input-color: rgba(255, 255, 255, 0.6)
+}
+
+a {
+    color: var(--textcolor);
+    text-decoration: none
+}
+
+a:focus,
+a:hover {
+    color: var(--maincolor)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--textcolor);
+    font-size: 14px;
+    letter-spacing: .03em;
+    background-color: var(--bgcolor)
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        width: 480px;
+        background-color: orange
+    }
+}
+
+@media screen and (min-width: 780px) {
+    .container {
+        width: 780px;
+        background-color: blue
+    }
+}
+
+.web-studio-logo {
+    font-family: Raleway;
+    color: var(--textcolor);
+    /* font-size: 26px; */
+    font-weight: 700
+}
+
+.web-studio-logo:hover,
+.web-studio-logo:focus {
+    color: var(--textcolor)
+}
+
+.page-header {
+    border-bottom: 1px solid var(--border-color)
+}
+
+.site-nav {
+    display: none
+}
+
+.contacts-nav {
+    display: none
+}
+
+/*# sourceMappingURL=main.min.css.map */
