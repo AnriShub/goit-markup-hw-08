@@ -1,29 +1,29 @@
-// .modal {
-//     position: absolute;
-//     padding: 40px;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     min-width: 528px;
-//     min-height: 580px;
-//     background-color: var(--bgcolor);
-// }
+.modal {
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 528px;
+    min-height: 580px;
+    background-color: var(--bgcolor);
+}
 
-// .modal-close-btn {
-//     position: absolute;
-//     top: 8px;
-//     right: 8px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     padding: 0;
-//     width: 30px;
-//     height: 30px;
-//     border-radius: 50%;
-//     border: 1px solid rgba(0, 0, 0, 0.1);
-//     background-color: transparent;
+.modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
     
-//     & use:hover, &:hover {
-//         fill: var(--maincolor);
-//     }
-// }
+    & use:hover, &:hover {
+        fill: var(--maincolor);
+    }
+}

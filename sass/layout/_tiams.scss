@@ -1,154 +1,122 @@
-// .jobs-title {
-//     text-align: center;
-//     font-family: 'Roboto';
-//     margin-bottom: 50px;
-//     font-weight: 700;
-//     font-size: 36px;
-//     line-height: 42px;
-//     letter-spacing: 0.03em;
-//     color: var(--textcolor);
-// }
+.jobs-title {
+    text-align: center;
+    font-family: 'Roboto';
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: var(--textcolor);
+}
 
-// .teams {
-//     display: flex;
-//     padding: 0 15 0;
-// }
+.teams {
+    display: flex;
+    padding: 0 15 0;
+}
 
-// .teams-item {
-//     width: 270px;
-//     background:var(--bgcolor);
-//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-//     border-radius: 0px 0px 4px 4px;
+.teams-item {
+    width: 270px;
+    background:var(--bgcolor);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 
-// &:not(:last-child) {
-//     margin-right: 30px;
-//     }
-// }
-
-
-// .fon-our-teams {
-//     /* height: 648px; */
-//     background-color:var(--button-color);
-// }
-
-// .teams-item-social{
-//     display: flex;
-//     justify-content: center;
-//     margin-bottom: 30px;
-//     gap: 10px;
-// }
-
-// .teams-item-social-round {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     border-radius: 100%;
-//     width: 44px;
-//     height: 44px;
-//     background-color:var(--bgcolor);
-
-//     &:hover, 
-//     &:hover .teams-social-icon {
-//         transition-duration: 250ms;
-//         background-color:var(--maincolor);
-//         fill: var(--bgcolor);
-//     }
-
-//     &:last-child{
-//         margin-right:0
-//     }
-// }
+&:not(:last-child) {
+    margin-right: 30px;
+    }
+}
 
 
-// .td-effects:hover .teams-item-social-round, .td-effects:hover .teams-social-icon {
-//     transition-duration: 250ms;
-// }
+.fon-our-teams {
+    /* height: 648px; */
+    background-color:var(--button-color);
+}
+
+.teams-item-social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+.teams-item-social-round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+    background-color:var(--bgcolor);
+
+    &:hover, 
+    &:hover .teams-social-icon {
+        transition-duration: 250ms;
+        background-color:var(--maincolor);
+        fill: var(--bgcolor);
+    }
+
+    &:last-child{
+        margin-right:0
+    }
+}
 
 
-
-// .teams-social-icon {
-//     width: 20px;
-//     height: 20px;
-//     fill: var(--social-icon-color);
-// }
-
-
-// .card-buttons {
-//     justify-content: center;
-//     padding: 0; 
-//     margin-right: 0; 
-//     margin-left: 0;
-//     margin-bottom: 50px;
-//     display: flex;
-// }
-
-// .wrapper {
-//     display: flex;
-// }
-
-// .jobs-wrapper:not(:last-child) {
-//     margin-right: 30px;
-//     }
-
-// .jobs-wrapper:first-child {
-// }
-
-// .btn-portfolio {
-//     font-family: 'Roboto';
-//     line-height: 26px;
-//     letter-spacing: 0.03em;
-//     font-weight: 500;
-//     font-size: 16px;
-//     margin-right: 8px;
-//     height: 38px;
-//     width: 125px;
-//     background-color: var(--button-color);
-//     color: var(--textcolor);
-//     border-width: 0px;
-//     border-style:none;
-//     border-color: buttonborder;
-//     cursor: pointer;
-
-//     &:focus, &:hover {
-//         background-color: var(--maincolor);
-//         color: var(--bgcolor);
-//     }
-// }
+.td-effects:hover .teams-item-social-round, .td-effects:hover .teams-social-icon {
+    transition-duration: 250ms;
+}
 
 
 
-// .btn-studio {
-//     margin-top: 30px;
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px; 
-//     font-family: 'Roboto';
-//     letter-spacing: 0.06em;
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.9;
-//     width: 216px;
-//     height: 50px;
-//     background-color: var(--maincolor);
-//     color: var(--bgcolor);
-//     border-color: buttonborder;
-//     border-width: 0px;
-//     border-style: none;
-
-//     &:focus, &:hover  {
-//         background-color: var(--secondarycolor);
-//         color: var(--bgcolor);
-//     }
-// }
+.teams-social-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--social-icon-color);
+}
 
 
-// .studio-title {
-//     margin-right: auto;
-//     margin-left: auto;
-//     width: 696px;
-//     font-weight: 900;
-//     font-size: 44px;
-//     line-height: 1.37;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     color: var(--bgcolor);
-// }
+.card-buttons {
+    justify-content: center;
+    padding: 0; 
+    margin-right: 0; 
+    margin-left: 0;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.jobs-wrapper:not(:last-child) {
+    margin-right: 30px;
+    }
+
+.jobs-wrapper:first-child {
+}
+
+.btn-portfolio {
+    font-family: 'Roboto';
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 8px;
+    height: 38px;
+    width: 125px;
+    background-color: var(--button-color);
+    color: var(--textcolor);
+    border-width: 0px;
+    border-style:none;
+    border-color: buttonborder;
+    cursor: pointer;
+
+    &:focus, &:hover {
+        background-color: var(--maincolor);
+        color: var(--bgcolor);
+    }
+}
+
+
+
+
+
+
