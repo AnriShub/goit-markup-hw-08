@@ -63,19 +63,16 @@ body {
     width: 480px;
     margin-left: auto;
     margin-right: auto;
-    background-color: orange;
   }
 }
 @media screen and (min-width: 786px) {
   .container {
     width: 756px;
-    background-color: orange;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    background-color: orange;
   }
 }
 .modal-form-input {
