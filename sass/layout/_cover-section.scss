@@ -61,8 +61,6 @@
 }
 
 @media screen and (min-width: 1200px) {
-
-
     .container {
         max-width: 1200px;
         width: 100%;
@@ -74,6 +72,7 @@
             width: 1600px;
             height: 600px;
             margin: 0;
+            margin-bottom: 60px;
             background-position: 50% 50%;
             padding: 200px 0;
             text-align: center;
@@ -99,9 +98,13 @@
             color: var(--bgcolor);
         }
 
-        .reset-pedding {
+        .reset-pedding__container {
             padding-top: 0;
         }
+
+        // .reset-pedding {
+        //     padding-top: 0;
+        // }
 
         .our-work {
             min-height: 387px;
@@ -129,11 +132,37 @@
             background-color: rgba(47, 48, 58, 0.8);
             color: var(--bgcolor);
         }
-
-
-
     }
 }
+
+// .our-work {
+//     min-height: 387px;
+// }
+
+// .jobs-wrapper {
+//     position: relative;
+// }
+
+// .over-type {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: absolute;
+//     width: 370px;
+//     height: 70px;
+//     left: 0px;
+//     bottom: 0px;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+//     /* text-align: center; */
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     background-color: rgba(47, 48, 58, 0.8);
+//     color: var(--bgcolor);
+// }
+
+
 
 // .cover-section {
 //     background-image: url(../images/header-overlay.png), url(../images/header.jpg);

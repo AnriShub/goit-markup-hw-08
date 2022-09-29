@@ -46,8 +46,9 @@
 .jobs-title {
     text-align: center;
     font-family: 'Roboto';
-    margin-top: 60px;
-    margin-bottom: 60px;
+    // margin-top: 60px;
+    margin-bottom: 30px;
+    padding-top: 60px;
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
@@ -56,8 +57,11 @@
 }
 
 .teams {
-    display: block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 0 15 0;
+    row-gap: 30px;
 }
 
 .teams-item {
@@ -76,8 +80,11 @@ img {
     width: 450px;
 }
 
-.fon-our-teams {
-    /* height: 648px; */
+.fon-our-teams__container {
+    margin-top: 60px;
+    // padding-bottom: 60px;
+    height: 2761px;
+    width: 100%;
     background-color: var(--button-color);
 }
 
@@ -188,7 +195,7 @@ img {
             // padding-bottom: 30px;
             text-align: center;
             font-family: 'Roboto';
-            margin-top: 60px;
+            // margin-top: 60px;
             margin-bottom: 30px;
             font-weight: 700;
             font-size: 28px;
@@ -199,15 +206,10 @@ img {
 
         .teams {
             display: flex;
+            justify-content: center;
             flex-wrap: wrap;
             padding: 0 15 0;
-
-
-            // &:not(:nth-child(2n)) {
-            //     margin-right: 30px;
-            // }
-
-
+            gap: 30px;
         }
 
 
@@ -220,11 +222,13 @@ img {
         background: var(--bgcolor);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
-        margin-right: 18px;
+        // margin-right: 18px;
 
-        &:not(:nth-child(2n + 1)) {
-            margin-right: 0px;
-        }
+        // &:not(:nth-child(2n + 1)) {
+        //     margin-right: 0px;
+
+        // }
+
 
         // &:not(:last-child) {
         //     margin-right: 20px;
@@ -236,11 +240,12 @@ img {
     }
 
     img {
-        width: 354px;
+        width: 100%;
     }
 
-    .fon-our-teams {
-        /* height: 648px; */
+    .fon-our-teams__container {
+        height: 1285px;
+        width: 100%;
         background-color: var(--button-color);
     }
 
@@ -249,7 +254,7 @@ img {
         justify-content: center;
         margin-bottom: 30px;
         padding-bottom: 24px;
-        gap: 10px;
+        // gap: 10px;
     }
 
     .teams-item-social-round {
@@ -288,6 +293,177 @@ img {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .container {
+        .fon-our-teams__container {
+            height: 708px;
+            width: 100%;
+            background-color: var(--button-color);
+        }
+
+        .jobs-title {
+            text-align: center;
+            font-family: 'Roboto';
+            margin-bottom: 50px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 42px;
+            letter-spacing: 0.03em;
+            color: var(--textcolor);
+        }
+
+        .teams {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 0 15 0;
+            gap: 30px;
+        }
+
+
+        .teams-item {
+            width: 270px;
+            background: var(--bgcolor);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 4px 4px;
+
+            // &:not(:last-child) {
+            //     margin-right: 30px;
+            // }
+        }
+
+
+
+        // .fon-our-teams {
+        //     /* height: 648px; */
+        //     background-color: var(--button-color);
+        // }
+
+        .teams-item-social {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 10px;
+        }
+
+        .teams-item-social-round {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 100%;
+            width: 44px;
+            height: 44px;
+            background-color: var(--bgcolor);
+
+            &:hover,
+            &:hover .teams-social-icon {
+                transition-duration: 250ms;
+                background-color: var(--maincolor);
+                fill: var(--bgcolor);
+            }
+
+            &:last-child {
+                margin-right: 0
+            }
+        }
+
+
+        .td-effects:hover .teams-item-social-round,
+        .td-effects:hover .teams-social-icon {
+            transition-duration: 250ms;
+        }
+
+
+
+        .teams-social-icon {
+            width: 20px;
+            height: 20px;
+            fill: var(--social-icon-color);
+        }
+
+
+        .card-buttons {
+            justify-content: center;
+            padding: 0;
+            margin-right: 0;
+            margin-left: 0;
+            margin-bottom: 50px;
+            display: flex;
+        }
+
+        .wrapper {
+            display: flex;
+        }
+
+        .jobs-wrapper:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        .jobs-wrapper:first-child {}
+
+        .btn-portfolio {
+            font-family: 'Roboto';
+            line-height: 26px;
+            letter-spacing: 0.03em;
+            font-weight: 500;
+            font-size: 16px;
+            margin-right: 8px;
+            height: 38px;
+            width: 125px;
+            background-color: var(--button-color);
+            color: var(--textcolor);
+            border-width: 0px;
+            border-style: none;
+            border-color: buttonborder;
+            cursor: pointer;
+
+            &:focus,
+            &:hover {
+                background-color: var(--maincolor);
+                color: var(--bgcolor);
+            }
+        }
+
+
+
+        .btn-studio {
+            margin-top: 30px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            font-family: 'Roboto';
+            letter-spacing: 0.06em;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 1.9;
+            width: 216px;
+            height: 50px;
+            background-color: var(--maincolor);
+            color: var(--bgcolor);
+            border-color: buttonborder;
+            border-width: 0px;
+            border-style: none;
+
+            &:focus,
+            &:hover {
+                background-color: var(--secondarycolor);
+                color: var(--bgcolor);
+            }
+        }
+
+
+        .studio-title {
+            margin-right: auto;
+            margin-left: auto;
+            width: 696px;
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.37;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            color: var(--bgcolor);
+        }
+    }
+}
 
 // .jobs-title {
 //     text-align: center;
