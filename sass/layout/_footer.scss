@@ -3,7 +3,7 @@
 }
 
 .footer-fon {
-    margin-top: 60px;
+    // margin-top: 60px;
     padding: 60px 0;
     background-color: var(--bg-color-fon);
 }
@@ -31,11 +31,11 @@
 }
 
 .footer-adress {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
     align-items: center;
-    // margin-right: 70px;
+    flex-direction: column;
 }
+
 
 .social-title {
     text-align: center;
@@ -98,10 +98,10 @@ address {
 }
 
 
-.footer-input {
-    margin-left: auto;
-    margin-right: auto;
-}
+// .footer-input {
+//     margin-left: auto;
+//     margin-right: auto;
+// }
 
 
 .addr {
@@ -177,7 +177,7 @@ address {
         }
 
         .footer-fon {
-            margin-top: 60px;
+            // margin-top: 60px;
             padding: 60px 0;
             background-color: var(--bg-color-fon);
         }
@@ -187,8 +187,11 @@ address {
         }
 
         .footer-wrapper {
-            display: block;
+            display: flex;
             align-items: baseline;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            row-gap: 60px;
         }
 
         .web-studio-logo-botton {
@@ -205,20 +208,22 @@ address {
         }
 
         .footer-adress {
-            display: inline-block;
-            margin-left: 76px;
-            margin-right: 165px;
+            display: flex;
             align-items: center;
+            flex-direction: column;
+            // margin-left: 76px;
+            // margin-right: 165px;
+            // align-items: center;
             // margin-right: 70px;
         }
 
-        .footer-social-wrapper {
-            top: 85px;
-            display: inline-block;
-            text-align: center;
-            // vertical-align: center;
+        // .footer-social-wrapper {
+        //     top: 85px;
+        //     display: inline-block;
+        //     text-align: center;
+        //     // vertical-align: center;
 
-        }
+        // }
 
 
         .social-title {
@@ -226,7 +231,7 @@ address {
             text-transform: uppercase;
             color: var(--bgcolor);
             font-weight: 700;
-            margin-top: 60px;
+            margin-top: 0;
             margin-bottom: 20px;
             font-size: 14px;
             line-height: 16px;
@@ -284,9 +289,9 @@ address {
 
         .footer-input {
             display: block;
-            align-items: center;
-            margin-left: auto;
-            margin-right: auto;
+            // align-items: center;
+            // margin-left: auto;
+            // margin-right: auto;
         }
 
 
@@ -308,8 +313,8 @@ address {
             border: 1px solid rgba(255, 255, 255, 0.3);
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
             border-radius: 4px;
-            margin-left: auto;
-            margin-right: auto;
+            // margin-left: auto;
+            // margin-right: auto;
             padding-left: 16px;
         }
 
@@ -325,8 +330,8 @@ address {
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
             margin-top: 20px;
-            margin-left: 263px;
-            margin-right: 263px;
+            // margin-left: 263px;
+            // margin-right: 263px;
             font-family: 'Roboto';
             font-weight: 700;
             font-size: 16px;
@@ -352,10 +357,12 @@ address {
         }
 
         .footer-flex {
-            display: block;
+            display: flex;
+            flex-direction: column;
         }
     }
 }
+
 
 
 @media screen and (min-width: 1200px) {
@@ -375,7 +382,8 @@ address {
 
         .footer-wrapper {
             display: flex;
-            align-items: baseline;
+            align-items: center;
+            // align-items: baseline;
         }
 
         .footer-adress {
@@ -475,7 +483,7 @@ address {
             border: none;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
             border-radius: 4px;
-            margin-top: 48px;
+            // margin-top: 48px;
             margin-left: 10px;
             font-family: 'Roboto';
             font-weight: 700;
@@ -503,7 +511,10 @@ address {
 
         .footer-flex {
             display: flex;
-            align-items: center
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: row;
+            align-content: center;
         }
     }
 }

@@ -15,7 +15,7 @@
 
 <body>
     <header class="page-header">
-        <div class="container">
+        <div class="page-header__container container">
             <nav class="main-nav">
                 <a href="./index.html" class="web-studio-logo page-logo-header">
                     <span style="color:#2196F3">Web</span>Studio
@@ -25,24 +25,29 @@
                     <li class="site-nav__item"> <a href="./portfolio.html" class="link nav_color">Портфоліо</a></li>
                     <li class="site-nav__item"> <a href="" class="link">Контакти</a></li>
                 </ul>
-                <ul class="contacts-nav">
-                    <li class="contacts">
-                        <svg class="contacts-icon icon-env" aria-label="envelope">
-                            <use href="./images/icons/sprite-contacts.svg#envelope">
-                            </use>
-                        </svg>
-
-                        <a href="mailto:info@devstudio.com" class="nav-sec-color">info@devstudio.com</a>
-                    </li>
-                    <li class="contacts">
-                        <svg class="contacts-icon icon-tel" aria-label="phone">
-                            <use href="./images/icons/sprite-contacts.svg#phone">
-                            </use>
-                        </svg>
-                        <a href="tel:+380961111111" class="nav-sec-color">+8 (096) 111-11-11</a>
-                    </li>
-                </ul>
             </nav>
+            <ul class="contacts-nav">
+                <li class="contacts">
+                    <svg class="contacts-icon icon-env" aria-label="envelope">
+                        <use href="./images/icons/sprite-contacts.svg#envelope">
+                        </use>
+                    </svg>
+
+                    <a href="mailto:info@devstudio.com" class="nav-sec-color">info@devstudio.com</a>
+                </li>
+                <li class="contacts">
+                    <svg class="contacts-icon icon-tel" aria-label="phone">
+                        <use href="./images/icons/sprite-contacts.svg#phone">
+                        </use>
+                    </svg>
+                    <a href="tel:+380961111111" class="nav-sec-color">+8 (096) 111-11-11</a>
+                </li>
+            </ul>
+            <button type="button" class="open-mobile-btn">
+                <svg class="open-mobile-btn__icon">
+                    <use href="./images/icons/sprite-benefits.svg#icon-burger"></use>
+                </svg>
+            </button>
         </div>
     </header>
 
@@ -329,6 +334,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>

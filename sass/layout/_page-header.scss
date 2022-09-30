@@ -18,30 +18,34 @@
     height: 11px;
 }
 
-
 .page-header__container {
     display: flex;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .page-header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    border-bottom: 1px solid var(--border-color);
+    // padding-top: 16px;
+    // padding-bottom: 16px;
 }
+
 
 
 @media screen and (min-width: 786px) {
     .container {
-
-
-        .page-header {
-            border-bottom: 1px solid var(--border-color);
+        .page-header__container {
+            display: flex;
+            padding-left: 15px;
             padding-top: 0;
             padding-bottom: 0;
+            padding-right: 15px;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .open-mobile-btn {
@@ -96,11 +100,14 @@
                 height: 4px;
                 /* left: 451px;
         top: 76px; */
-                margin-top: 28px;
+                // margin-top: 28px;
                 color: red;
                 background-color: var(--maincolor);
                 border-radius: 2px;
                 /* outline: 4px solid red; */
+                position: absolute;
+                left: 0;
+                bottom: -1px;
             }
         }
 
@@ -124,23 +131,25 @@
 
         .site-nav {
             display: flex;
+            flex-direction: row;
             margin: 0;
-            padding: 0;
+            // padding: 32px 0;
 
             & .site-nav__item:not(:last-child) {
                 margin-right: 50px;
             }
 
             & .link {
+                position: relative;
                 display: block;
                 /* padding-top: 32px; */
                 padding-top: 32px;
+                padding-bottom: 32px;
                 /* padding-bottom: 32px; */
-                margin-bottom: -7px;
+                // margin-bottom: -7px;
             }
         }
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -177,6 +186,7 @@
 
         .contacts-nav {
             display: flex;
+            flex-direction: row;
             margin-left: auto;
 
             & .contacts:not(:last-child) {
@@ -189,17 +199,20 @@
 
             &::after {
                 content: "";
+                position: absolute;
                 display: inline-block;
                 background-image: url("/images/icons/envelope.svg");
                 width: 100%;
                 height: 4px;
                 /* left: 451px;
                 top: 76px; */
-                margin-top: 28px;
+                // margin-top: 28px;
                 color: red;
                 background-color: var(--maincolor);
                 border-radius: 2px;
                 /* outline: 4px solid red; */
+                left: 0;
+                bottom: -1px;
             }
         }
 
@@ -231,7 +244,8 @@
             & .link {
                 display: block;
                 /* padding-top: 32px; */
-                padding-top: 36px;
+                padding-top: 32px;
+                padding-bottom: 32px;
                 /* padding-bottom: 32px; */
                 margin-bottom: -7px;
             }
