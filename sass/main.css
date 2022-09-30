@@ -923,10 +923,11 @@ body {
 }
 
 @media screen and (min-width: 786px) {
-  .container .cover-section {
+  .cover-section {
     position: relative;
     background-image: url(../../images/tablrt-overlay.png), url(../../images/tablet-header.jpg);
     background-repeat: no-repeat;
+    margin: 0 auto;
     height: 400px;
     background-position: 50% 50%;
     margin-bottom: 60px;
@@ -940,30 +941,29 @@ body {
     line-height: 42px;
     text-align: center;
     text-transform: uppercase;
-    padding-left: 204px;
-    padding-right: 204px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 360px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--bgcolor);
   }
 }
 @media screen and (min-width: 1200px) {
-  .container .cover-section {
-    background-image: url(../images/header-overlay.png), url(../images/header.jpg);
+  .cover-section {
+    background-image: url(../../images/header-overlay.png), url(../../images/header.jpg);
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 600px;
-    margin: 0;
-    margin-bottom: 60px;
     background-position: 50% 50%;
+    height: 600px;
+    margin: 0 auto 60px;
     padding: 200px 0;
     text-align: center;
     background-color: var(--bg-color-fon);
   }
-  .container .cover-section__container {
+  .cover-section__container {
     width: 1200px;
   }
-  .container .studio-title {
+  .cover-section__container .studio-title {
     padding: 0;
     margin-right: auto;
     margin-left: auto;
@@ -976,16 +976,16 @@ body {
     text-transform: uppercase;
     color: var(--bgcolor);
   }
-  .container .reset-pedding__container {
+  .cover-section__container .reset-pedding__container {
     padding-top: 0;
   }
-  .container .our-work {
+  .cover-section__container .our-work {
     display: block;
   }
-  .container .jobs-wrapper {
+  .cover-section__container .jobs-wrapper {
     position: relative;
   }
-  .container .over-type {
+  .cover-section__container .over-type {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1547,17 +1547,6 @@ img {
   }
   .container .btn-studio:focus, .container .btn-studio:hover {
     background-color: var(--secondarycolor);
-    color: var(--bgcolor);
-  }
-  .container .studio-title {
-    margin-right: auto;
-    margin-left: auto;
-    width: 696px;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.37;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: var(--bgcolor);
   }
 }

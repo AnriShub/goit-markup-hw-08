@@ -22,20 +22,21 @@
 
 
 @media screen and (min-width: 786px) {
-    .container {
-        .cover-section {
-            position: relative;
-            background-image: url(../../images/tablrt-overlay.png), url(../../images/tablet-header.jpg);
-            background-repeat: no-repeat;
-            // width: 480px;
-            height: 400px;
-            background-position: 50% 50%;
-            margin-bottom: 60px;
-            // margin: 0 auto;
-            padding: 118px 0;
-            text-align: center;
-            background-color: var(--bg-color-fon);
-        }
+
+    // .container {
+    .cover-section {
+        position: relative;
+        background-image: url(../../images/tablrt-overlay.png), url(../../images/tablet-header.jpg);
+        background-repeat: no-repeat;
+        // background-size: cover;
+        margin: 0 auto;
+        height: 400px;
+        background-position: 50% 50%;
+        margin-bottom: 60px;
+        // margin: 0 auto;
+        padding: 118px 0;
+        text-align: center;
+        background-color: var(--bg-color-fon);
     }
 
     .studio-title {
@@ -44,12 +45,12 @@
         line-height: 42px;
         text-align: center;
         text-transform: uppercase;
-        padding-left: 204px;
-        padding-right: 204px;
+        // padding-left: 204px;
+        // padding-right: 204px;
 
-        // margin-right: 60px;
-        // margin-left: 60px;
-        // width: 360px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 360px;
         // line-height: 1.37;
         letter-spacing: 0.06em;
         text-transform: uppercase;
@@ -57,29 +58,31 @@
     }
 }
 
+
+
+// }
+
 @media screen and (min-width: 1200px) {
-    .container {
-        // max-width: 1200px;
-        // width: 100%;
+    // .container {
+    //     // max-width: 1200px;
+    //     // width: 100%;
+
+    .cover-section {
+        background-image: url(../../images/header-overlay.png), url(../../images/header.jpg);
+        background-repeat: no-repeat;
+        // width: 1600px;
+        background-position: 50% 50%;
+        height: 600px;
+        margin: 0 auto 60px;
+        padding: 200px 0;
+        text-align: center;
+        background-color: var(--bg-color-fon);
+    }
+
+    .cover-section__container {
+        width: 1200px;
 
 
-        .cover-section {
-            background-image: url(../images/header-overlay.png), url(../images/header.jpg);
-            background-repeat: no-repeat;
-            width: 1600px;
-            height: 600px;
-            margin: 0;
-            margin-bottom: 60px;
-            background-position: 50% 50%;
-            padding: 200px 0;
-            text-align: center;
-            background-color: var(--bg-color-fon);
-        }
-
-        .cover-section__container {
-            width: 1200px;
-
-        }
 
         .studio-title {
             padding: 0;
@@ -128,3 +131,5 @@
         }
     }
 }
+
+// }
