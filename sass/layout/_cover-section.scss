@@ -5,7 +5,7 @@
     // width: 480px;
     height: 400px;
     background-position: 50% 50%;
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
     // margin: 0 auto;
     padding: 118px 0;
     text-align: center;
@@ -14,6 +14,7 @@
 
 .section reset-pedding {
     display: none;
+    padding-top: 0;
 }
 
 .our-work {
@@ -32,7 +33,7 @@
         margin: 0 auto;
         height: 400px;
         background-position: 50% 50%;
-        margin-bottom: 60px;
+        // margin-bottom: 60px;
         // margin: 0 auto;
         padding: 118px 0;
         text-align: center;
@@ -73,62 +74,62 @@
         // width: 1600px;
         background-position: 50% 50%;
         height: 600px;
-        margin: 0 auto 60px;
+        // margin: 0 auto 60px;
         padding: 200px 0;
         text-align: center;
         background-color: var(--bg-color-fon);
     }
 
-    .cover-section__container {
-        width: 1200px;
+    .section reset-pedding {
+        display: block;
+        padding-top: 0;
+    }
+
+    .our-work {
+        display: block;
+    }
 
 
+    .cover-section .studio-title {
+        padding: 0;
+        margin-right: auto;
+        margin-left: auto;
+        width: 696px;
+        font-weight: 900;
+        font-size: 44px;
+        text-align: center;
+        line-height: 1.37;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--bgcolor);
+    }
 
-        .studio-title {
-            padding: 0;
-            margin-right: auto;
-            margin-left: auto;
-            width: 696px;
-            font-weight: 900;
-            font-size: 44px;
-            text-align: center;
-            line-height: 1.37;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: var(--bgcolor);
-        }
-
-        .reset-pedding__container {
-            padding-top: 0;
-        }
+    .reset-pedding {
+        padding-top: 0;
+    }
 
 
-        .our-work {
-            display: block;
-        }
+    .jobs-wrapper {
+        position: relative;
+    }
 
-        .jobs-wrapper {
-            position: relative;
-        }
-
-        .over-type {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            position: absolute;
-            width: 370px;
-            height: 70px;
-            left: 0px;
-            bottom: 0px;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 16px;
-            /* text-align: center; */
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            background-color: rgba(47, 48, 58, 0.8);
-            color: var(--bgcolor);
-        }
+    .over-type {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        left: 0px;
+        bottom: 0px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        /* text-align: center; */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        background-color: rgba(47, 48, 58, 0.8);
+        color: var(--bgcolor);
     }
 }
 

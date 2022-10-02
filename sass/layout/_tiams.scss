@@ -48,7 +48,7 @@
     font-family: 'Roboto';
     // margin-top: 60px;
     margin-bottom: 30px;
-    padding-top: 60px;
+    // padding-top: 60px;
     font-weight: 700;
     font-size: 28px;
     line-height: 42px;
@@ -64,6 +64,10 @@
     row-gap: 30px;
 }
 
+.teams-item img {
+    width: 100%;   
+}
+
 .teams-item {
     // height: 622px;
     width: 450px;
@@ -76,17 +80,22 @@
     // }
 }
 
-img {
-    width: 450px;
-}
+// img {
+//     width: 450px;
+// }
 
-.fon-our-teams__container {
-    margin-top: 60px;
-    // padding-bottom: 60px;
-    // height: 2761px;
-    // width: 100%;
+
+.fon-our-teams {
     background-color: var(--button-color);
 }
+
+// .fon-our-teams__container {
+//     margin-top: 60px;
+//     // padding-bottom: 60px;
+//     // height: 2761px;
+//     // width: 100%;
+//     background-color: var(--button-color);
+// }
 
 .teams-item-social {
     display: flex;
@@ -175,10 +184,13 @@ img {
 }
 
 
+
+
 @media screen and (min-width: 786px) {
     .container {
         .jobs-title {
-            padding-top: 60px;
+            // width: 354px;
+            // padding-top: 60px;
             // padding-bottom: 30px;
             text-align: center;
             font-family: 'Roboto';
@@ -282,11 +294,11 @@ img {
 
 @media screen and (min-width: 1200px) {
     .container {
-        .fon-our-teams__container {
-            // height: 708px;
-            // width: 100%;
-            background-color: var(--button-color);
-        }
+        // .fon-our-teams__container {
+        //     // height: 708px;
+        //     // width: 100%;
+        //     background-color: var(--button-color);
+        // }
 
         .jobs-title {
             text-align: center;
@@ -450,6 +462,16 @@ img {
         //     color: var(--bgcolor);
         // }
     }
+}
+
+@media screen and (max-width: 450px) {
+    .container .reg-wrapper {
+        justify-content: center;
+    }
+    .regular-customers {
+
+    }
+
 }
 
 // .jobs-title {
