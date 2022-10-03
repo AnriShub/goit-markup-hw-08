@@ -1,10 +1,10 @@
 .reg-wrapper {
     margin: 0;
-    // padding-bottom: 60px;
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    gap: 30px;
 }
 
 .td-effects {
@@ -13,7 +13,7 @@
 
 .regular-customers {
     display: flex;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     width: 210px;
@@ -27,6 +27,7 @@
     }
 
     gap: 30px;
+
     &:last-child {
         // gap: 0px;
         margin-bottom: 0px;
@@ -58,6 +59,7 @@
     .container {
         .reg-wrapper {
             margin: 0;
+            gap: 30px;
             // padding-bottom: 60px;
             display: flex;
             flex-wrap: wrap;
@@ -71,7 +73,7 @@
 
         .regular-customers {
             display: flex;
-            margin-bottom: 30px;
+            // margin-bottom: 30px;
             justify-content: center;
             align-items: center;
             width: 226px;
