@@ -172,7 +172,7 @@ address {
 }
 
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
 
     // .container {
     .footer-info-color {
@@ -404,6 +404,7 @@ address {
         }
 
         .social-title {
+            text-align: left;
             text-transform: uppercase;
             color: var(--bgcolor);
             font-weight: 700;
